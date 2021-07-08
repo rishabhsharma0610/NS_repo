@@ -1,0 +1,8 @@
+{
+  "address1": "{addr1FP}",
+  "address2": "{addr2FP}",
+  "city": "{cityFP}",
+  "country_code": "{countryCodeFP}",
+  "zipcode": "{postalCodeFP}",
+  "state_code": "{stateCodeFP}"
+}

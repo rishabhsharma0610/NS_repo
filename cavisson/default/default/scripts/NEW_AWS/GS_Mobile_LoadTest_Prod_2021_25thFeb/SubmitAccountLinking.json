@@ -1,0 +1,7 @@
+{
+  "email": "{Email_AL_FP}",
+  "step3OpenID": "{OpenIdSP}",
+  "password": "GameStopPerf#01",
+  "client_id": "{Clientid_FP}",
+  "client_secret": "{SecretKeyFP}"
+}
