@@ -1,0 +1,9 @@
+POST /rest/management/profiles/profile_name/startrecording HTTP/1.1^M
+Accept-Language: en-us^M
+HOST: 172.17.2.58:8021^M
+Content-Type: application/x-www-form-urlencoded^M
+Content-Length: 103^M
+Cache-Control: no-cache^M
+Authorization: Basic YWRtaW46YWRtaW4=^M__
+^M
+presentableName=New_Scenaio1&description=&recordingOption=&isTimeStampAllowed=true&isSessionLocked=true

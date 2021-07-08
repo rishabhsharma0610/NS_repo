@@ -1,0 +1,4 @@
+GET /rest/management/profiles/Cav-tomcat/stoprecording HTTP/1.1^M
+HOST: 172.17.2.58:8021^M
+Authorization: Basic YWRtaW46YWRtaW4=^M
+^M

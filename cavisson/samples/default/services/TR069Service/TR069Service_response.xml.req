@@ -1,0 +1,42 @@
+<soap:Envelope
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+  soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:cwmp="urn:dslforum-org:cwmp-1-0">
+  <soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">TR3439.NVM0.0</cwmp:ID>
+  </soap:Header>
+  <soap:Body>
+    <cwmp:Inform>
+      <cwmp:DeviceId>
+        <cwmp:Manufacturer>Jungo LTD.</cwmp:Manufacturer>
+        <cwmp:OUI>147AD23</cwmp:OUI>
+        <cwmp:ProductClass>Some Gateway Model</cwmp:ProductClass>
+        <cwmp:SerialNumber>ABCD1234</cwmp:SerialNumber>
+      </cwmp:DeviceId>
+      <cwmp:Event>
+        cwmp:EventStruct>
+         <cwmp:EventCode>0 BOOTSTRAP</cwmp:EventCode>
+         <cwmp:CommandKey></cwmp:CommandKey>
+       </cwmp:EventStruct>
+         <cwmp:EventStruct>
+           <cwmp:EventCode>1 REINIT</cwmp:EventCode>
+           <cwmp:CommandKey></cwmp:CommandKey>
+         </cwmp:EventStruct>
+      </cwmp:Event>
+      <cwmp:MaxEnvelopes>1</cwmp:MaxEnvelopes>
+      <cwmp:RetryCount>0</cwmp:RetryCount>
+      <cwmp:CurrentTime>"06-02-11"</cwmp:CurrentTime>
+      <cwmp:ParameterList>
+        <cwmp:ParameterValueStruct>
+          <name>InternetGatewayDevice.DeviceInfo.SpecVersion</name>
+          <value xsi:type="string">1.0</value>
+        </cwmp:ParameterValueStruct>
+        <cwmp:ParameterValueStruct>
+          <name>InternetGatewayDevice.DeviceInfo.HardwareVersion</name>
+          <value xsi:type="string">1.2</value>
+        </cwmp:ParameterValueStruct>
+      </cwmp:ParameterList>
+    </cwmp:Inform>
+  </soap:Body>
+</soap:Envelope>
+

@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Flight Confirmation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<!-- head_user.ui!!!! -->
+
+<body bgcolor="#FFFFFF" marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#0000CC" align="center"> 
+    <td>
+      <table width="100%" border="0" cellspacing="8" cellpadding="0">
+        <tr align="center"> 
+          <td><img src="/tours/Merc10-dev/images/banner_animated.gif" width="576" height="100"></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="632" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+	<td bgcolor="#66CCFF" width="125" valign="top"><img src=/tours/Merc10-dev/images/sun_swede.gif alt=Sun width=125 height=120> 
+            <br clear=all>
+	
+              <center>	
+                <table border=0 height=140>
+
+	<tr><td align=center>
+	<A HREF="/cgi-bin/reservation">
+	<IMG BORDER="0" WIDTH="95" SRC=/tours/Merc10-dev/images/flights.gif ALT="Search Flights Button" HEIGHT="25"></A>
+	</td></tr>
+
+	<tr><td align=center>
+ 	<A HREF="/cgi-bin/home">
+	<IMG BORDER="0" WIDTH="95" SRC=/tours/Merc10-dev/images/home.gif ALT="Home Button" HEIGHT="25"></A>
+	</td></tr>
+	
+	<tr><td align=center>
+	<A HREF="/cgi-bin/welcome">
+	<IMG BORDER="0" WIDTH="95" SRC=/tours/Merc10-dev/images/signoff.gif ALT="SignOff Button" HEIGHT="25"></A>
+	</td></tr>
+
+                </table>
+              </center>
+              <p>
+              </p>
+              <p>&nbsp; </p>
+          </td>
+          <td valign="top">
+            <table width="507" border="0" cellspacing="0" cellpadding="0">
+<!--
+              <tr>
+                <td><img src="/Merc10-dev/images/banner_merctur.jpg" width="507" height="94"></td>
+              </tr>
+-->
+              <tr>
+                <td>
+                  <table width=507>
+
+
+
+
+<img src=/tours/images/splash_flightconfirm.gif width=395 height=90>
+<blockquote>
+<CENTER>
+<font size=+1>Your reservation has been confirmed.  Thank you for booking through Mercury Tours.</font>
+<BR>
+<BR>
+    <!-- Customer Name header --->
+	<Table width=85% border=0 cellspacing=0 >
+	    <TR bgcolor=#66ccff>
+		<TD colspan=2 align=center>
+		    <font size=+1><b>
+Mercury Interactive's Flight Invoice</b></font>
+     </TD>
+     <TD width=120 align=right>
+          Wed Jul  7 21:10:31 2021
+
+</TD> </TR> </Table>
+<Table width=85% border=0 cellspacing=1 >
+<!-- Flight Item header -->
+ <TR bgcolor=#CCCCCC> <TD colspan=2 align=left> <b>Flights Reservation Requests:</b> </TD> <TD align=center ><b>Cost<b> </TD> </TR>
+<!-- Flight reserved --> <TR bgcolor=#EEEEEE> <TD valign=top>1.</TD> <TD align=left>
+<b><u>1 Coach Class tickets from Acapulco to Acapulco.</u></b>
+<br> <center> <i> 07-08-2021 : <br> </i> </center>
+ <center> <Table width=80% border=0> <Tr><Td> Passengers:<br>
+<li>Scott Tiger </Td></Tr> </Table> </center> <br> </TD>
+ <TD valign=top> $ 0 </TD> </TR>
+<!-- Total Cost --> <TR bgcolor=#DDDDDD> <TD>* </TD> <TD > Total Cost </TD> <TD> <b> $ 0 </b> </TD> </TR>
+<TR bgcolor=#DDDDDD> <TD>- </TD> <TD > Total Charged to Credit Card #  </TD> <TD> <b> $ 0 </b> </TD> </TR>
+
+<TR bgcolor=#CCCCCC>
+    <TD>*
+   </TD>
+    <TD >
+        Credit Account Balance
+    </TD>
+    <TD>
+       <b> $ 0.00 </b>
+    </TD>
+  </TR></Table>
+<BR>
+<Table width=85% border=0>
+  <tr>
+    <td align=right>
+<FORM METHOD="get" ACTION="/cgi-bin/reservation" ENCTYPE="application/x-www-form-urlencoded">
+<INPUT TYPE="image" NAME="BookAnother" SRC="/tours/images/bookanother.gif" BORDER="0"></FORM>    </td>
+  </tr>
+</Table>
+
+</Center>
+
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+ <p><hr width=70%><center><table><tr><td><a href=http://www.binevolve.com><img border=0 src=/tours/vep/images/velocigen.gif></a></td><td><a href=http://www.binevolve.com>Binary Evolution's VelociGen for Perl/TCL<br>Free 60 Day Evaluation</a></td></tr></table></center>

@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Mercury Tours</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#0000CC" align="center"> 
+    <td>
+      <table width="100%" border="0" cellspacing="8" cellpadding="0">
+        <tr align="center"> 
+          <td><img src="Merc10-dev/images/banner_animated.gif" width="576" height="100"></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="632" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td bgcolor="#66CCFF" width="125" valign="top"><img src="Merc10-dev/images/sun_swede.gif" alt=Sun width=125 height=120> 
+            <br clear>
+            <form method=get action=/cgi-bin/login>
+              <input type=hidden name=userSession value=75893.0884568651DQADHfApHDHfcDtccpfAttcf>
+              <center>
+                <table border=0 height=140>
+                  <tr>
+                    <td><font size=3>&nbsp;<b>Member name</b></font> 
+                  <tr>
+                    <td>
+                      <input type=text name=username value='' size=12>
+                  <tr>
+                    <td><font size=3>&nbsp;<b>Password</b></font> 
+                  <tr>
+                    <td>
+                      <input type=password name=password value='' size=12>
+                  <tr>
+                    <td align=center>
+                      <input type=image name=login value=Login alt=Login border=0 src='Merc10-dev/images/login.gif' width=95 height=25>
+
+                  
+                </table>
+              </center>
+              <p>
+                <input type=hidden name=JSFormSubmit value='off'>
+              </p>
+              <p>&nbsp; </p>
+            </form>
+          </td>
+          <td valign="top">
+            <table width="507" border="0" cellspacing="0" cellpadding="0">
+<!--
+	      <tr>
+                <td><img src="pics/banner_merctur.jpg" width="507" height="94"></td>
+	      </tr>
+-->
+              <tr>
+                <td>
+                  <table width=507>
+
+
+
+<img src="images/banner_merctur.jpg" width=507 height=94>
+<br clear>
+<table width=507>
+<tr><td>&nbsp;<TR><TD>
+<blockquote><font size=+1>
+<!--
+ Welcome to the Mercury Tours website.  To make reservations,
+ please enter your account information to the left. 
+-->
+Welcome to the Mercury Tours website.  To make reservations, please enter
+your account information to the left.  
+<!-- To sign up with Mercury Tours,
+choose a Member Name and Password, then click on the 'sign up' button. -->
+</font>
+</blockquote>
+
+
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

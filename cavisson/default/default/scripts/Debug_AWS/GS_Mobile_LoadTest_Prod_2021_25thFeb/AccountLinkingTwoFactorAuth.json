@@ -1,0 +1,7 @@
+{
+  "VerificationCode": "282413",
+  "deviceName": "test",
+  "saveDevice": false,
+  "step2OpenID": "{OpenIdSP}",
+  "email": "{Email_AL_FP}"
+}

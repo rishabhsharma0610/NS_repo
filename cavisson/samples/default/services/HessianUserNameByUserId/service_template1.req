@@ -1,0 +1,8 @@
+<hessian>
+<call>
+<ver>2.0</ver>
+<method>retrieveUserNameByUserId</method>
+<long>1001</long>
+</call>
+</hessian>
+

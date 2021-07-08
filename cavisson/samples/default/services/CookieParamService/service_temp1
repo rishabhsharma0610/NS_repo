@@ -1,0 +1,14 @@
+value of same_as_cookie_name = {sameascookiename}
+value of save_len_var = {save_len_var}
+value of offset_var = {offset_var}
+value of offset_savelen_var = {offset_savelen_var}
+value of decode_var = {decode_var}
+value of encode_all_var = {encode_all_var}
+value of encode_specific_var = {encode_specific_var}
+value of selection_var = {selection_var}
+value of cookie_occur = {cookie_occur}
+value of method_var  = {method_var}
+value of default_val_var = {default_val_var}
+value of action_on_nt_found_var  = {action_on_nt_found_var}
+
+

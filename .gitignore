@@ -1,0 +1,10 @@
+.logs
+.ssh_key
+.ssh_key.pub
+.ssh_config
+.workprofile.conf
+.*.sw*
+.*.lock
+cavisson/.system
+cavisson/correleation.conf
+cavisson/data/.gitignore

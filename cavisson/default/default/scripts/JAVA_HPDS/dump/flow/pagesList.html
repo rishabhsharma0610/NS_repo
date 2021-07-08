@@ -1,0 +1,78 @@
+<!-- NetStorm GUI4  -->
+<html>
+<head><title>Page Response Snapshots for recorded script</title></head>
+<!-- Title of the screen -->
+  <link rel="stylesheet" href="/netstorm/css/Netstorm.css" type="text/css" /link>
+  <script language="javascript">
+
+    function showRecordedPageOnFrame(url)
+    {
+      parent.Dump.location = url;
+    }
+    //These functions highlight the row when we pass/hover on current row
+    function over(row)
+    {
+      row.oldBackgroundColor = row.style.backgroundColor;
+      row.style.backgroundColor = 'FFFFCC';
+    }
+
+    function out(row)
+    {
+      row.style.backgroundColor = row.oldBackgroundColor;
+    }
+
+    function highLightRow(rowId)
+    {
+      var newElement = document.getElementById(rowId);
+      if(typeof(oldElement)!='undefined'){
+        oldElement.style.backgroundColor = oldElement.oldBackgroundColor;}
+      newElement.oldBackgroundColor = newElement.style.backgroundColor;
+      newElement.style.backgroundColor = "#FFCC00";
+      oldElement = newElement;  } 
+</script>
+</head>
+<body onLoad=showRecordedPageOnFrame('10.10.30.207_8443/tours/index.html');highLightRow('0');>
+  <form id="form1" name="form1" method="post" action="">
+       <table border="0" bordercolor= red cellpadding=0 cellspacing=0 style = "width:100%;height:60px;background-color:#F2F2F2;background-repeat:repeat-x;" height=20><tr><td width=15% align=left valign=middle><table width = 100%><tr><td width = 100%><img src=/netstorm/images/logo.png></td></tr></table></td><td width = 85% align=center valign=middle><table border=0 bordercolor= green width=100% cellpadding=0 cellspacing=0><tr><td align=center class=screenTitle>Script Page Snapshots - default/scripts/JAVA_HPDS</td></tr></table></td></tr></table> 
+       <table border='0' bordercolor= blue cellpadding=0 cellspacing=0 id=text>
+       <tr><td align="center">
+       <br /><br /></table>
+       <table cellpadding="0" cellspacing="0" class="table" width="98%" align="center" max-width=1200px>
+       <tr><td colspan="2" align="center" valign="top">
+       <table width =" 100%" border="0"  align =" center" cellpadding =" 0" cellspacing =" 0" id="table02" style="width:100%; display;">
+       <tr align="center" class="tableHeader">
+       <td height="20"><b>Page Number</b></td>
+       <td><b>Page Name</b></td>
+ <tr align="center" class="tableRowOdd" id ='0'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('0');><a href=javascript:showRecordedPageOnFrame('./headers/page_1.txt')>01</a></span></td>
+<td valign =" middle" ><span onClick = highLightRow('0');><a href=javascript:showRecordedPageOnFrame('./10.10.30.207_8443/tours/index.html')>index_html</a></span></td>
+ <tr align="center" class="tableRowEven" id ='1'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('1');><a href=javascript:showRecordedPageOnFrame('./headers/page_2.txt')>02</a></span></td>
+<td valign =" middle" ><span onClick = highLightRow('1');><a href=javascript:showRecordedPageOnFrame('./10.10.30.207_8443/cgi-bin/login_userSession%3D75893.0884568651DQADHfApHDHfcDtccpfAttcf_username%3Dcavisson_password%3Dcavisson_login.x%3D')>login</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='2'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('2');><a href=javascript:showRecordedPageOnFrame('./headers/page_3.txt')>03</a></span></td>
+<td valign =" middle" ><span onClick = highLightRow('2');><a href=javascript:showRecordedPageOnFrame('./10.10.30.207_8443/cgi-bin/reservation')>reservation</a></span></td>
+ <tr align="center" class="tableRowEven" id ='3'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('3');><a href=javascript:showRecordedPageOnFrame('./headers/page_4.txt')>04</a></span></td>
+<td valign =" middle" ><span onClick = highLightRow('3');><a href=javascript:showRecordedPageOnFrame('./10.10.30.207_8443/cgi-bin/findflight_depart%3DAcapulco_departDate%3D07-08-2021_arrive%3DAcapulco_returnDate%3D07-09-2021_numPassengers%3D1_')>findflight</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='4'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('4');><a href=javascript:showRecordedPageOnFrame('./headers/page_5.txt')>05</a></span></td>
+<td valign =" middle" ><span onClick = highLightRow('4');><a href=javascript:showRecordedPageOnFrame('./10.10.30.207_8443/cgi-bin/findflight_outboundFlight%3Dbutton0_hidden_outboundFlight_button0%3D000_0_07-08-2021_hidden_outboundFlight_')>findflight_2</a></span></td>
+ <tr align="center" class="tableRowEven" id ='5'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('5');><a href=javascript:showRecordedPageOnFrame('./headers/page_6.txt')>06</a></span></td>
+<td valign =" middle" ><span onClick = highLightRow('5');><a href=javascript:showRecordedPageOnFrame('./10.10.30.207_8443/cgi-bin/findflight_firstName%3DTiger_lastName%3DScott_address1%3D4261_Stevenson_Blvd._address2%3DFremont_2C_CA_94538_pa')>findflight_3</a></span></td>
+ <tr align="center" class="tableRowOdd" id ='6'>
+     <td height="20" valign =" middle"><span onClick = highLightRow('6');><a href=javascript:showRecordedPageOnFrame('./headers/page_7.txt')>07</a></span></td>
+<td valign =" middle" ><span onClick = highLightRow('6');><a href=javascript:showRecordedPageOnFrame('./10.10.30.207_8443/cgi-bin/welcome')>welcome</a></span></td>
+ </td></tr>
+ </table>
+ </table>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <br>
+<br>
+<tr>
+ </table>
+<br/>
+</form>
+</body>
+</html>

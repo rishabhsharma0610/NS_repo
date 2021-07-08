@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--This application was developed to test amf data packet as response, we can use it for recording amf data packet.
+XML Data in the recorded script can be verified by Http Analyzer : Saloni Tyagi -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>AMF Call Simulator</title>
+    
+    <script type="text/javascript">
+    
+        var destUrl = "/amfsimulator";
+        
+        function makeCall() {
+        var request = new XMLHttpRequest();
+                request.open("POST", destUrl);
+                request.setRequestHeader("Content-type", "application/x-amf");
+                body = getData();
+                request.contentLength = 244;
+                request.sendAsBinary(body);
+    }
+        
+        function getData() {
+                // Initialise string as body of typical AMF request
+                var data = "00 03 00 00 00 01 00 04 6e 75 6c 6c 00 02 2f 31 ";
+                data += "00 00 00 e0 0a 00 00 00 01 11 0a 81 13 4d 66 6c ";
+                data += "65 78 2e 6d 65 73 73 61 67 69 6e 67 2e 6d 65 73 ";
+                data += "73 61 67 65 73 2e 43 6f 6d 6d 61 6e 64 4d 65 73 ";
+                data += "73 61 67 65 13 6f 70 65 72 61 74 69 6f 6e 1b 63 ";
+                data += "6f 72 72 65 6c 61 74 69 6f 6e 49 64 11 63 6c 69 ";
+                data += "65 6e 74 49 64 15 74 69 6d 65 54 6f 4c 69 76 65 ";
+                data += "0f 68 65 61 64 65 72 73 13 74 69 6d 65 73 74 61 ";
+                data += "6d 70 17 64 65 73 74 69 6e 61 74 69 6f 6e 13 6d ";
+                data += "65 73 73 61 67 65 49 64 09 62 6f 64 79 04 05 06 ";
+                data += "01 01 04 00 0a 0b 01 25 44 53 4d 65 73 73 61 67 ";
+                data += "69 6e 67 56 65 72 73 69 6f 6e 04 01 09 44 53 49 ";
+                data += "64 06 07 6e 69 6c 01 04 00 06 01 06 49 37 30 36 ";
+                data += "37 33 37 45 46 2d 46 31 44 33 2d 34 44 44 44 2d ";
+                data += "32 39 36 45 2d 42 37 32 41 45 39 38 45 30 34 33 ";
+                data += "39 0a 05 01";
+                bytes = data.split(" ");
+                var result = "";
+                for (var i = 0; i < bytes.length; i++) {
+                  var code = parseInt(bytes[i], 16);
+                  result += String.fromCharCode(code);
+                }
+                return result;
+        }
+    </script>
+    
+  </head>
+
+  <body>
+        <p>This page simulates the sending of a typical AMF message without the need for any Flash code.
+        When tested locally, the complete body of the message is available to filters and servlets for processing.
+        An AMF server implementation returns a valid AMF response (tested).
+        Any attempt to read beyond byte XXX causes an unexpected EOFException. </p>
+        <p>This test page is accompanied by AMFSimulatorServlet, which contains logging to verify the issue.</p>
+        <a href="javascript:makeCall()">Send a typical AMF request to the server</a>
+        <p>Note: This may require Firefox 3, as the call is made using XmlHttpRequest.sendAsBinary()</p>
+  </body>
+</html>

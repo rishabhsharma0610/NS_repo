@@ -1,0 +1,12 @@
+{
+   "username" : "my_username",
+   "password" : "my_password",
+   "validation-factors" : {
+      "validationFactors" : [
+         {
+            "name" : "remote_address",
+            "value" : "127.0.0.1"
+         }
+      ]
+   }
+}

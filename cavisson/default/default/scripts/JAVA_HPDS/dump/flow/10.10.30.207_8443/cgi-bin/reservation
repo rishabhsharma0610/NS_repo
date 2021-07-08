@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Find Flights</title>
+</head>
+<!-- reserv_top.ui!!!!! -->
+<body bgcolor="#FFFFFF" marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#0000CC" align="center"> 
+    <td>
+      <table width="100%" border="0" cellspacing="8" cellpadding="0">
+        <tr align="center"> 
+          <td><img src="./../../10.10.30.207_8443/tours/Merc10-dev/images/banner_animated.gif" width="576" height="100"></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="632" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+	<td bgcolor="#66CCFF" width="125" valign="top"><img src="./../../10.10.30.207_8443/tours/Merc10-dev/images/sun_swede.gif" alt=Sun width=125 height=120>
+            <br clear=all>
+	
+              <center>	
+                <table border=0 height=140>
+
+	<tr><td align=center>
+	<A HREF="/cgi-bin/reservation">
+	<IMG BORDER="0" WIDTH="95" src="./../../10.10.30.207_8443/tours/Merc10-dev/images/flights.gif" ALT="Search Flights Button" HEIGHT="25"></A></td></tr>
+
+	<tr><td align=center>
+ 	<A HREF="/cgi-bin/home">
+	<IMG BORDER="0" WIDTH="95" src="./../../10.10.30.207_8443/tours/Merc10-dev/images/home.gif" ALT="Home Button" HEIGHT="25"></A>
+	</td></tr>
+	
+	<tr><td align=center>
+	<A HREF="/cgi-bin/welcome">
+	<IMG BORDER="0" WIDTH="95" src="./../../10.10.30.207_8443/tours/Merc10-dev/images/signoff.gif" ALT="SignOff Button" HEIGHT="25"></A>
+	</td></tr>
+
+                </table>
+              </center>
+              <p>
+              </p>
+              <p>&nbsp; </p>
+          </td>
+          <td valign="top">
+            <table width="507" border="0" cellspacing="0" cellpadding="0">
+<!--
+              <tr>
+                <td><img src="./../../10.10.30.207_8443/tours/Merc10-dev/images/banner_merctur.jpg" width="507" height="94"></td>
+              </tr>
+-->
+              <tr>
+                <td>
+                  <table width=507><tr><td>
+<img src="./../../10.10.30.207_8443/tours/Merc10-dev/images/splash_Findflight.gif" width=395 height=90>
+
+<FORM METHOD="GET" ACTION="/cgi-bin/findflight">
+<TABLE CELLSPACING="5" BORDER="0">
+<TR><TD ALIGN="left">Departure City :</TD>
+<TD><SELECT NAME="depart">
+
+
+<OPTION  VALUE="Acapulco">Acapulco</OPTION><OPTION  VALUE="Frankfurt">Frankfurt</OPTION><OPTION  VALUE="London">London</OPTION><OPTION  VALUE="New York">New York</OPTION><OPTION  VALUE="Paris">Paris</OPTION><OPTION  VALUE="Portland">Portland</OPTION><OPTION  VALUE="San Francisco">San Francisco</OPTION><OPTION  VALUE="Seattle">Seattle</OPTION><OPTION  VALUE="Sydney">Sydney</OPTION><OPTION  VALUE="Zurich">Zurich</OPTION></SELECT></TD><TD ALIGN="left">Departure Date :</TD><TD><INPUT TYPE="text" NAME="departDate" VALUE="07-08-2021" SIZE=10 MAXLENGTH=10></TD></TR><TR><TD ALIGN="left">Arrival City :</TD><TD><SELECT NAME="arrive"><OPTION  VALUE="Acapulco">Acapulco</OPTION><OPTION  VALUE="Frankfurt">Frankfurt</OPTION><OPTION  VALUE="London">London</OPTION><OPTION  VALUE="New York">New York</OPTION><OPTION  VALUE="Paris">Paris</OPTION><OPTION  VALUE="Portland">Portland</OPTION><OPTION  VALUE="San Francisco">San Francisco</OPTION><OPTION  VALUE="Seattle">Seattle</OPTION><OPTION  VALUE="Sydney">Sydney</OPTION><OPTION  VALUE="Zurich">Zurich</OPTION></SELECT></TD><TD ALIGN="left">Return Date :</TD><TD><INPUT TYPE="text" NAME="returnDate" VALUE="07-09-2021" SIZE=10 MAXLENGTH=10></TD></TR>
+<TR><TD ALIGN="left">No. of Passengers : </TD>
+<TD><INPUT TYPE="text" NAME="numPassengers" VALUE="1" SIZE=2 MAXLENGTH=2></TD>
+
+<TD COLSPAN="2"><INPUT TYPE="checkbox" NAME="roundtrip" VALUE="on">Roundtrip ticket</TD></TR>
+
+<TR><TD colspan=2>Seating Preference</TD>
+<TD colspan=2>Type of Seat</TD>
+</TR>
+
+<TR><TD colspan=2><INPUT TYPE="radio" NAME="seatPref" VALUE="Aisle">Aisle<BR>
+<INPUT TYPE="radio" NAME="seatPref" VALUE="Window">Window<BR>
+<INPUT TYPE="radio" NAME="seatPref" VALUE="None" CHECKED>None<BR></TD>
+
+<TD colspan=2><INPUT TYPE="radio" NAME="seatType" VALUE="First">First<BR>
+<INPUT TYPE="radio" NAME="seatType" VALUE="Business">Business<BR>
+<INPUT TYPE="radio" NAME="seatType" VALUE="Coach" CHECKED>Coach<BR></TD>
+</TR>
+
+<TR><TD HEIGHT="10"></TR>
+
+<TR><TD ALIGN="center" COLSPAN="4"><INPUT TYPE="IMAGE" NAME="findFlights" VALUE="Submit" src="./../../10.10.30.207_8443/tours/images/continue.gif" BORDER="0"> </TD></TR>
+</TABLE>
+
+</FORM>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<p>
+
+</body>
+</html>
+ <p><hr width=70%><center><table><tr><td><a href=http://www.binevolve.com><img border=0 src="./../../10.10.30.207_8443/tours/vep/images/velocigen.gif"></a></td><td><a href=http://www.binevolve.com>Binary Evolution's VelociGen for Perl/TCL<br>Free 60 Day Evaluation</a></td></tr></table></center>

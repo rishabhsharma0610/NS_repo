@@ -1,0 +1,713 @@
+{   
+  "jvm" : {    
+    "vm" : {    
+      "name" : "Oracle JRockit(R)",    
+      "version" : "1.6.0_37-b06"    
+    },    
+    "memory" : {    
+      "totalInit" : 6.44349952E9,    
+      "totalUsed" : 3.714577896E9,    
+      "totalMax" : 6.442450943E9,    
+      "totalCommitted" : 6.60078592E9,    
+      "heapInit" : 6.442450944E9,    
+      "heapUsed" : 3.557777264E9,    
+      "heapMax" : 6.442450944E9,    
+      "heapCommitted" : 6.442450944E9,    
+      "heap_usage" : 0.5522397135694822,    
+      "non_heap_usage" : -1.56800632E8,    
+      "memory_pool_usages" : {    
+        "Class Memory" : {ClassMemory},    
+        "ClassBlock Memory" : {ClassMemory},    
+        "Nursery" : {Nursery},    
+        "Old Space" : {Old_Space}    
+      }    
+    },    
+    "daemon_thread_count" : {Daemon_Count},    
+    "thread_count" : {Count},    
+    "current_time" : 1378713144880,    
+    "uptime" : {Uptime},    
+    "fd_usage" : {Fd_usage},    
+    "thread-states" : {    
+      "waiting" : {Waiting},    
+      "blocked" : {Blocked},    
+      "runnable" : {Runnable},    
+      "new" : 0.0,    
+      "terminated" : 0.0,    
+      "timed_waiting" : {Timed_waiting}    
+    },    
+    "garbage-collectors" : {    
+      "Garbage collection optimized for throughput Old Collector" : {    
+        "runs" : 0,    
+        "time" : 0    
+      },    
+      "Garbage collection optimized for throughput Young Collector" : {    
+        "runs" : {Runs},    
+        "time" : {Time}    
+      }    
+    }    
+  },    
+  "com.kohls.openapi.commons.metric.web.UriWebMetricsFilter" : {    
+    "/openapi-rest-web/v1/cart-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : {Mean},    
+      "m1" : 2.244855661046567E-159,    
+      "m5" : 1.4084018115179558E-34,    
+      "m15" : 3.870093642399829E-14    
+    },    
+    "/openapi-rest-web/v1/cart-400" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 3.718948997759805E-4,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 8.348702943905486E-113,    
+      "m15" : 1.3968020444191713E-39    
+    },    
+    "/openapi-rest-web/v1/cart-401" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 7.430894715695628E-5,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 6.748264708013682E-118,    
+      "m15" : 4.485096142304583E-40    
+    },    
+    "/openapi-rest-web/v1/catalog-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 0.003538410241122916,    
+      "m1" : 5.56935772561273E-143,    
+      "m5" : 2.694571639815069E-31,    
+      "m15" : 6.953449665429706E-13    
+    },    
+    "/openapi-rest-web/v1/giftCard-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 5.921558367949677E-5,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 4.178383328330025E-111,    
+      "m15" : 1.716195158001443E-39    
+    },    
+    "/openapi-rest-web/v1/inventory-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 1.2871431560642344E-4,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 1.4876189011709443E-113,    
+      "m15" : 1.3337726530084452E-38    
+    },    
+    "/openapi-rest-web/v1/inventory-404" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 2.5736156590014005E-5,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 1.2958386734075772E-113,    
+      "m15" : 1.2751373687594862E-38    
+    },    
+    "/openapi-rest-web/v1/kohlsCash-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 0.0028467531066863646,    
+      "m1" : 9.763373875726526E-155,    
+      "m5" : 4.948983283409622E-33,    
+      "m15" : 4.870805498728021E-13    
+    },    
+    "/openapi-rest-web/v1/order-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 0.0018394295010001433,    
+      "m1" : 4.826276234664637E-155,    
+      "m5" : 2.6139780875297976E-33,    
+      "m15" : 2.8275389638439386E-13    
+    },    
+    "/openapi-rest-web/v1/order-400" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 6.81078865618886E-4,    
+      "m1" : 1.7258432310454162E-154,    
+      "m5" : 1.3362544339131057E-33,    
+      "m15" : 8.192692069233467E-14    
+    },    
+    "/openapi-rest-web/v1/order-401" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 7.223347386117266E-5,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 6.065608268791304E-121,    
+      "m15" : 1.8305280348310364E-41    
+    },    
+    "/openapi-rest-web/v1/price-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 1.351014536853101E-4,    
+      "m1" : 3.212155656273364E-188,    
+      "m5" : 2.397994634595144E-40,    
+      "m15" : 4.621108804420657E-16    
+    },    
+    "/openapi-rest-web/v1/price-404" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 2.5768938283499224E-5,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 1.8084885535146906E-113,    
+      "m15" : 1.4249903248540523E-38    
+    },    
+    "/openapi-rest-web/v1/product-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 0.0014527699182479664,    
+      "m1" : 1.345816755660785E-32,    
+      "m5" : 3.1936408651491818E-9,    
+      "m15" : 1.0953648966434468E-5    
+    },    
+    "/openapi-rest-web/v1/product-400" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 7.244779290803845E-4,    
+      "m1" : 1.5790667952531933E-303,    
+      "m5" : 3.6178608992196065E-63,    
+      "m15" : 1.812738502922525E-23    
+    },    
+    "/openapi-rest-web/v1/product-500" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 1.6416447645010892E-4,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 5.048671559870755E-83,    
+      "m15" : 2.7492048100622735E-30    
+    },    
+    "/openapi-rest-web/v1/profile-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 7.692157781199516E-4,    
+      "m1" : 2.0396628316294425E-51,    
+      "m5" : 5.50047970933278E-13,    
+      "m15" : 6.094400075910741E-7    
+    },    
+    "/openapi-rest-web/v1/profile-400" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 6.196430185377162E-4,    
+      "m1" : 7.503500226780014E-52,    
+      "m5" : 4.503411894712186E-13,    
+      "m15" : 5.701347769912538E-7    
+    },    
+    "/openapi-rest-web/v1/profile-401" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 8.295726511119697E-4,    
+      "m1" : 8.67198129604045E-172,    
+      "m5" : 6.324522180591097E-37,    
+      "m15" : 1.2145574752987024E-14    
+    },    
+    "/openapi-rest-web/v1/profile-405" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 2.550065005388673E-5,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 1.1953151440034098E-114,    
+      "m15" : 5.761481010634392E-39    
+    },    
+    "/openapi-rest-web/v1/recommendation-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 7.369530326678788E-5,    
+      "m1" : 1.9668209450954065E-251,    
+      "m5" : 9.502216778028726E-53,    
+      "m15" : 5.846227959182994E-20    
+    },    
+    "/openapi-rest-web/v1/recommendation-500" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 9.83052504807882E-5,    
+      "m1" : 3.537529316000919E-286,    
+      "m5" : 1.5840914439234421E-59,    
+      "m15" : 9.634644384392028E-21    
+    },    
+    "/openapi-rest-web/v1/subscribe-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 1.1488298402354093E-5,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 1.9848345578143027E-127,    
+      "m15" : 1.9949320212470024E-43    
+    },    
+    "/openapi-rest-web/v1/validation-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 0.0017632015797661,    
+      "m1" : 7.506570250397323E-146,    
+      "m5" : 1.274750315756742E-31,    
+      "m15" : 9.471025080315452E-13    
+    },    
+    "all-active-requests" : {    
+      "type" : "counter",    
+      "count" : {Count}    
+    },    
+    "all-requests" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 54.345345323663416,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 0.29930877370930997,    
+        "m1" : 0.28880430667277196,    
+        "m5" : 0.29300591269666654,    
+        "m15" : 0.2901691027207959    
+      }    
+    },    
+    "other-200" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 0.2825786032709727,    
+      "m1" : 0.296792841967742,    
+      "m5" : 0.2944205486017995,    
+      "m15" : 0.29050481081780044    
+    },    
+    "other-500" : {    
+      "type" : "meter",    
+      "event_type" : "responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 2.4835660550688388E-5,    
+      "m1" : 2.978911664191635E-17,    
+      "m5" : 3.7436946221372884E-6,    
+      "m15" : 1.154951100410841E-4    
+    },    
+    "response-200" : {    
+      "type" : "meter",    
+      "event_type" : "all-responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 0.29600327366133244,    
+      "m1" : 0.296792841967742,    
+      "m5" : 0.2944205517432041,    
+      "m15" : 0.2905163132243456    
+    },    
+    "response-400" : {    
+      "type" : "meter",    
+      "event_type" : "all-responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 0.0022270197652789242,    
+      "m1" : 7.503500226780014E-52,    
+      "m5" : 4.503411894712186E-13,    
+      "m15" : 5.701348589181768E-7    
+    },    
+    "response-401" : {    
+      "type" : "meter",    
+      "event_type" : "all-responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 9.510740640717204E-4,    
+      "m1" : 7.979427860145033E-172,    
+      "m5" : 6.247919416233754E-37,    
+      "m15" : 1.211368457390353E-14    
+    },    
+    "response-404" : {    
+      "type" : "meter",    
+      "event_type" : "all-responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 5.147231260027923E-5,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 1.3252362938556214E-113,    
+      "m15" : 1.282988294117817E-38    
+    },    
+    "response-405" : {    
+      "type" : "meter",    
+      "event_type" : "all-responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 2.5500649886067182E-5,    
+      "m1" : 2.964393875E-314,    
+      "m5" : 1.1953151440034098E-114,    
+      "m15" : 5.761481010634392E-39    
+    },    
+    "response-500" : {    
+      "type" : "meter",    
+      "event_type" : "all-responses",    
+      "unit" : "seconds",    
+      "count" : {Count},    
+      "mean" : 2.2983026555776825E-4,    
+      "m1" : 2.978911664191635E-17,    
+      "m5" : 3.7436946221372884E-6,    
+      "m15" : 1.154951100410841E-4    
+    }    
+  },    
+  "com.kohls.openapi.commons.metric.web.UriWebMetricsFilter.requests" : {    
+    "/openapi-rest-web/v1/cart" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 807.6033675870968,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 0.0016969301809069825,    
+        "m1" : 2.0653669125949113E-159,    
+        "m5" : 1.3851229771385637E-34,    
+        "m15" : 3.848653177672224E-14    
+      }    
+    },    
+    "/openapi-rest-web/v1/catalog" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 2432.107651302469,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 0.0035380832082791656,    
+        "m1" : 5.569357725611102E-143,    
+        "m5" : 2.694302782669465E-31,    
+        "m15" : 6.943662228496603E-13    
+      }    
+    },    
+    "/openapi-rest-web/v1/giftCard" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 2318.7142084,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 5.921362296552084E-5,    
+        "m1" : 2.964393875E-314,    
+        "m5" : 4.17838332832993E-111,    
+        "m15" : 1.7161743983064066E-39    
+      }    
+    },    
+    "/openapi-rest-web/v1/inventory" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 47.820528,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 1.5441693489272763E-4,    
+        "m1" : 2.964393875E-314,    
+        "m5" : 1.4211798316588926E-113,    
+        "m15" : 1.3123422731011836E-38    
+      }    
+    },    
+    "/openapi-rest-web/v1/kohlsCash" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 36.117744996153846,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 0.002846749098613457,    
+        "m1" : 9.763373875726526E-155,    
+        "m5" : 4.948983283409622E-33,    
+        "m15" : 4.870805498728021E-13    
+      }    
+    },    
+    "/openapi-rest-web/v1/order" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 1298.8074531814345,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 0.002562085227104708,    
+        "m1" : 2.2084708545118794E-154,    
+        "m5" : 3.9502325214428915E-33,    
+        "m15" : 3.6468081720306016E-13    
+      }    
+    },    
+    "/openapi-rest-web/v1/price" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 11.33821576923077,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 1.596652262480162E-4,    
+        "m1" : 3.212155656273364E-188,    
+        "m5" : 2.397994634595144E-40,    
+        "m15" : 4.621108804420657E-16    
+      }    
+    },    
+    "/openapi-rest-web/v1/product" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 959.5299018909952,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 0.0023046440545426627,    
+        "m1" : 1.345816755660785E-32,    
+        "m5" : 3.1936408651491818E-9,    
+        "m15" : 1.0953648966434468E-5    
+      }    
+    },    
+    "/openapi-rest-web/v1/profile" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 209.68369692391303,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 0.0021774583839855237,    
+        "m1" : 2.790012854307442E-51,    
+        "m5" : 1.0003891604044977E-12,    
+        "m15" : 1.1795747983614626E-6    
+      }    
+    },    
+    "/openapi-rest-web/v1/recommendation" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 3084.859139857143,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 1.7193872138230551E-4,    
+        "m1" : 1.9668209450954065E-251,    
+        "m5" : 9.502217842837162E-53,    
+        "m15" : 5.874807045423482E-20    
+      }    
+    },    
+    "/openapi-rest-web/v1/subscribe" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 213.219119,    
+        "std_dev" : 0.0,    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 1.1488270087499902E-5,    
+        "m1" : 2.964393875E-314,    
+        "m5" : 1.9848345578143027E-127,    
+        "m15" : 1.9949320212470024E-43    
+      }    
+    },    
+    "/openapi-rest-web/v1/validation" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 80.21931866459627,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 0.0017631976798715941,    
+        "m1" : 7.506570250397323E-146,    
+        "m5" : 1.2747533125552422E-31,    
+        "m15" : 9.472107672226235E-13    
+      }    
+    },    
+    "other" : {    
+      "type" : "timer",    
+      "duration" : {    
+        "unit" : "milliseconds",    
+        "min" : {Min},    
+        "max" : {Max},    
+        "mean" : 0.3110710838108882,    
+        "std_dev" : {Pdev},    
+        "median" : {Median},    
+        "p75" : {Pdev},    
+        "p95" : {Pdev},    
+        "p98" : {Pdev},    
+        "p99" : {Pdev},    
+        "p999" : {Pdev}    
+      },    
+      "rate" : {    
+        "unit" : "seconds",    
+        "count" : {Count},    
+        "mean" : 0.28259976337137455,    
+        "m1" : 0.2967928419677422,    
+        "m5" : 0.2944242954815587,    
+        "m15" : 0.2906205439493973    
+      }    
+    }    
+  }    
+}

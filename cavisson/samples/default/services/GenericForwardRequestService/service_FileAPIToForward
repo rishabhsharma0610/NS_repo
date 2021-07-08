@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>Using API To Forward Request </title>
+</head>
+<body>
+<h2>Service Name: GenericForwardRequestService</h2>
+<h2>Condition :<{query_type}></h2>
+</body>
+</html>

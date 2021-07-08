@@ -1,0 +1,19 @@
+<hessian>
+<reply>
+<ver>1.0</ver>
+<map>
+<type>Error</type>
+<string>Unable to retrieve response for </string>
+<string>User Id : {userID}</string>
+<string>credit card no: {dec}</string>
+</map>
+</reply>
+</hessian>
+
+
+
+
+
+
+
+

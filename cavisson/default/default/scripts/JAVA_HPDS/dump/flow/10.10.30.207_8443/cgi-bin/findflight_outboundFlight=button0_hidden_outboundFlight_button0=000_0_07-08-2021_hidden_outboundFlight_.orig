@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Method of Payment</title>
+</head>
+
+<!-- choose_flight_top!!! -->
+<body bgcolor="#FFFFFF" marginwidth=0 marginheight=0 topmargin=0 leftmargin=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#0000CC" align="center"> 
+    <td>
+      <table width="100%" border="0" cellspacing="8" cellpadding="0">
+        <tr align="center"> 
+          <td><img src="/tours/Merc10-dev/images/banner_animated.gif" width="576" height="100"></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="632" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+	<td bgcolor="#66CCFF" width="125" valign="top"><img src=/tours/Merc10-dev/images/sun_swede.gif alt=Sun width=125 height=120> 
+            <br clear=all>
+	
+              <center>	
+                <table border=0 height=140>
+
+	<tr><td align=center>
+	<A HREF="/cgi-bin/reservation">
+	<IMG BORDER="0" WIDTH="95" SRC=/tours/Merc10-dev/images/flights.gif ALT="Search Flights Button" HEIGHT="25"></A>
+	</td></tr>
+
+	<tr><td align=center>
+ 	<A HREF="/cgi-bin/home">
+	<IMG BORDER="0" WIDTH="95" SRC=/tours/Merc10-dev/images/home.gif ALT="Home Button" HEIGHT="25"></A>
+	</td></tr>
+	
+	<tr><td align=center>
+	<A HREF="/cgi-bin/welcome">
+	<IMG BORDER="0" WIDTH="95" SRC=/tours/Merc10-dev/images/signoff.gif ALT="SignOff Button" HEIGHT="25"></A>
+	</td></tr>
+
+                </table>
+              </center>
+              <p>
+              </p>
+              <p>&nbsp; </p>
+          </td>
+          <td valign="top">
+            <table width="507" border="0" cellspacing="0" cellpadding="0">
+<!--
+              <tr>
+                <td><img src="/tours/Merc10-dev/images/banner_merctur.jpg" width="507" height="94"></td>
+              </tr>
+-->
+              <tr>
+                <td>
+                  <table width=507><tr><td>
+
+<img src=/tours/images/splash_creditcard.gif width=395 height=90>
+<blockquote><br clear><p><font size=+1>Please enter the passenger and payment details for flight 000: </font>
+<FORM METHOD="GET" ACTION="/cgi-bin/findflight" ENCTYPE="application/x-www-form-urlencoded" ONSUBMIT="return true ;">
+<table><tr><td align=right>First Name : <td><INPUT TYPE="text" NAME="firstName" VALUE="Tiger" SIZE=15>
+<tr><td align=right>Last Name : <td><INPUT TYPE="text" NAME="lastName" VALUE="Scott" SIZE=30>
+<tr><td align=right>Street Address : <td colspan=3><INPUT TYPE="text" NAME="address1" VALUE="4261 Stevenson Blvd." SIZE=30>
+<tr><td align=right>City/State/Zip : <td colspan=3><INPUT TYPE="text" NAME="address2" VALUE="Fremont, CA 94538" SIZE=30>
+<tr><td align=right>Passenger Names : <td colspan=3><INPUT TYPE="text" NAME="pass1" VALUE="Scott Tiger" SIZE=30>
+<tr><td height=10><tr><td height=10 align=center colspan=4>Total for 1 ticket(s) is = $ 0<tr><td align=right>Credit Card : <td><INPUT TYPE="text" NAME="creditCard" VALUE="" SIZE=20 MAXLENGTH=20><td align=right>Exp Date : <td><INPUT TYPE="text" NAME="expDate" VALUE="" SIZE=5 MAXLENGTH=5>
+<tr><td><td colspan=3 align=left><INPUT TYPE="checkbox" NAME="saveCC" VALUE="on">Save this Credit Card Information<INPUT TYPE="hidden" NAME="oldCCOption" VALUE=""></table><INPUT TYPE="hidden" NAME="numPassengers" VALUE="1"><INPUT TYPE="hidden" NAME="seatType" VALUE="Coach"><INPUT TYPE="hidden" NAME="seatPref" VALUE="None"><INPUT TYPE="hidden" NAME="outboundFlight" VALUE="000|0|07-08-2021"><INPUT TYPE="hidden" NAME="advanceDiscount" VALUE="">
+<INPUT TYPE="image" NAME="buyFlights" SRC="/tours/images/purchaseflight.gif" BORDER="0"><INPUT TYPE="hidden" NAME=".cgifields" VALUE="saveCC"></FORM>
+<td>&nbsp;<td align=center><FORM METHOD="get" ACTION="/cgi-bin/reservation" ENCTYPE="application/x-www-form-urlencoded" ONSUBMIT="void(0);">
+<INPUT TYPE="image" NAME="BookAnother" SRC="/tours/images/startover.gif" BORDER="0"></FORM></table></center></blockquote>
+</FORM>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<p>
+
+</body>
+</html>
+ <p><hr width=70%><center><table><tr><td><a href=http://www.binevolve.com><img border=0 src=/tours/vep/images/velocigen.gif></a></td><td><a href=http://www.binevolve.com>Binary Evolution's VelociGen for Perl/TCL<br>Free 60 Day Evaluation</a></td></tr></table></center>
